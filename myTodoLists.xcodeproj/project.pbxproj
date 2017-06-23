@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E38876B11EF136BC00FC467C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38876AF1EF136BC00FC467C /* Main.storyboard */; };
+		E38876B71EF15D0C00FC467C /* MyTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38876B61EF15D0C00FC467C /* MyTodo.swift */; };
 		E3EC8E871EEFE782000C6FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EC8E861EEFE782000C6FDF /* AppDelegate.swift */; };
 		E3EC8E891EEFE782000C6FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EC8E881EEFE782000C6FDF /* ViewController.swift */; };
-		E3EC8E8C1EEFE782000C6FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E8A1EEFE782000C6FDF /* Main.storyboard */; };
 		E3EC8E8E1EEFE782000C6FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E8D1EEFE782000C6FDF /* Assets.xcassets */; };
 		E3EC8E911EEFE782000C6FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E8F1EEFE782000C6FDF /* LaunchScreen.storyboard */; };
+		E3EC8E9C1EEFFA93000C6FDF /* homeBTN.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E9B1EEFFA93000C6FDF /* homeBTN.png */; };
+		E3EC8E9E1EEFFA97000C6FDF /* homeBTNunstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E9D1EEFFA97000C6FDF /* homeBTNunstate.png */; };
+		E3EC8EA11EEFFA9F000C6FDF /* cartBTNstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8E9F1EEFFA9F000C6FDF /* cartBTNstate.png */; };
+		E3EC8EA21EEFFA9F000C6FDF /* cartBTNunstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8EA01EEFFA9F000C6FDF /* cartBTNunstate.png */; };
+		E3EC8EA51EEFFAA9000C6FDF /* callBTNunstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8EA31EEFFAA9000C6FDF /* callBTNunstate.png */; };
+		E3EC8EA61EEFFAA9000C6FDF /* callBTNstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8EA41EEFFAA9000C6FDF /* callBTNstate.png */; };
+		E3EC8EA91EEFFABD000C6FDF /* planeBTNstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8EA71EEFFABD000C6FDF /* planeBTNstate.png */; };
+		E3EC8EAA1EEFFABD000C6FDF /* planeBTNunstate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EC8EA81EEFFABD000C6FDF /* planeBTNunstate.png */; };
+		E3F45EF41EF2B25200916C57 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F45EF31EF2B25200916C57 /* NotesTableViewCell.swift */; };
+		E3F4CFAD1EFA2BB40087BF54 /* NotesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4CFAC1EFA2BB40087BF54 /* NotesClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E38876B01EF136BC00FC467C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E38876B61EF15D0C00FC467C /* MyTodo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTodo.swift; sourceTree = "<group>"; };
 		E3EC8E831EEFE782000C6FDF /* myTodoLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTodoLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EC8E861EEFE782000C6FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3EC8E881EEFE782000C6FDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3EC8E8B1EEFE782000C6FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3EC8E8D1EEFE782000C6FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3EC8E901EEFE782000C6FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3EC8E921EEFE782000C6FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EC8E9B1EEFFA93000C6FDF /* homeBTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBTN.png; sourceTree = "<group>"; };
+		E3EC8E9D1EEFFA97000C6FDF /* homeBTNunstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBTNunstate.png; sourceTree = "<group>"; };
+		E3EC8E9F1EEFFA9F000C6FDF /* cartBTNstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartBTNstate.png; sourceTree = "<group>"; };
+		E3EC8EA01EEFFA9F000C6FDF /* cartBTNunstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartBTNunstate.png; sourceTree = "<group>"; };
+		E3EC8EA31EEFFAA9000C6FDF /* callBTNunstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callBTNunstate.png; sourceTree = "<group>"; };
+		E3EC8EA41EEFFAA9000C6FDF /* callBTNstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callBTNstate.png; sourceTree = "<group>"; };
+		E3EC8EA71EEFFABD000C6FDF /* planeBTNstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planeBTNstate.png; sourceTree = "<group>"; };
+		E3EC8EA81EEFFABD000C6FDF /* planeBTNunstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planeBTNunstate.png; sourceTree = "<group>"; };
+		E3F45EF31EF2B25200916C57 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesTableViewCell.swift; path = ../NotesTableViewCell.swift; sourceTree = "<group>"; };
+		E3F4CFAC1EFA2BB40087BF54 /* NotesClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,33 @@
 		E3EC8E851EEFE782000C6FDF /* myTodoLists */ = {
 			isa = PBXGroup;
 			children = (
+				E3EC8E981EEFF4E5000C6FDF /* images for button */,
 				E3EC8E861EEFE782000C6FDF /* AppDelegate.swift */,
+				E3F45EF31EF2B25200916C57 /* NotesTableViewCell.swift */,
+				E3F4CFAC1EFA2BB40087BF54 /* NotesClass.swift */,
 				E3EC8E881EEFE782000C6FDF /* ViewController.swift */,
-				E3EC8E8A1EEFE782000C6FDF /* Main.storyboard */,
+				E38876B61EF15D0C00FC467C /* MyTodo.swift */,
+				E38876AF1EF136BC00FC467C /* Main.storyboard */,
 				E3EC8E8D1EEFE782000C6FDF /* Assets.xcassets */,
 				E3EC8E8F1EEFE782000C6FDF /* LaunchScreen.storyboard */,
 				E3EC8E921EEFE782000C6FDF /* Info.plist */,
 			);
 			path = myTodoLists;
+			sourceTree = "<group>";
+		};
+		E3EC8E981EEFF4E5000C6FDF /* images for button */ = {
+			isa = PBXGroup;
+			children = (
+				E3EC8E9B1EEFFA93000C6FDF /* homeBTN.png */,
+				E3EC8E9D1EEFFA97000C6FDF /* homeBTNunstate.png */,
+				E3EC8E9F1EEFFA9F000C6FDF /* cartBTNstate.png */,
+				E3EC8EA01EEFFA9F000C6FDF /* cartBTNunstate.png */,
+				E3EC8EA71EEFFABD000C6FDF /* planeBTNstate.png */,
+				E3EC8EA81EEFFABD000C6FDF /* planeBTNunstate.png */,
+				E3EC8EA31EEFFAA9000C6FDF /* callBTNunstate.png */,
+				E3EC8EA41EEFFAA9000C6FDF /* callBTNstate.png */,
+			);
+			name = "images for button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +165,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3EC8E911EEFE782000C6FDF /* LaunchScreen.storyboard in Resources */,
+				E3EC8EA51EEFFAA9000C6FDF /* callBTNunstate.png in Resources */,
 				E3EC8E8E1EEFE782000C6FDF /* Assets.xcassets in Resources */,
-				E3EC8E8C1EEFE782000C6FDF /* Main.storyboard in Resources */,
+				E3EC8EA11EEFFA9F000C6FDF /* cartBTNstate.png in Resources */,
+				E3EC8EAA1EEFFABD000C6FDF /* planeBTNunstate.png in Resources */,
+				E38876B11EF136BC00FC467C /* Main.storyboard in Resources */,
+				E3EC8E9E1EEFFA97000C6FDF /* homeBTNunstate.png in Resources */,
+				E3EC8EA61EEFFAA9000C6FDF /* callBTNstate.png in Resources */,
+				E3EC8EA91EEFFABD000C6FDF /* planeBTNstate.png in Resources */,
+				E3EC8EA21EEFFA9F000C6FDF /* cartBTNunstate.png in Resources */,
+				E3EC8E9C1EEFFA93000C6FDF /* homeBTN.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,18 +185,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F4CFAD1EFA2BB40087BF54 /* NotesClass.swift in Sources */,
 				E3EC8E891EEFE782000C6FDF /* ViewController.swift in Sources */,
 				E3EC8E871EEFE782000C6FDF /* AppDelegate.swift in Sources */,
+				E38876B71EF15D0C00FC467C /* MyTodo.swift in Sources */,
+				E3F45EF41EF2B25200916C57 /* NotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3EC8E8A1EEFE782000C6FDF /* Main.storyboard */ = {
+		E38876AF1EF136BC00FC467C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E3EC8E8B1EEFE782000C6FDF /* Base */,
+				E38876B01EF136BC00FC467C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -297,6 +349,7 @@
 				E3EC8E971EEFE782000C6FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
